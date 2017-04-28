@@ -51,10 +51,10 @@ public class GameState extends State implements Runnable{
 		world = new World("res/worlds/world2.txt");
 		game.setWorld(world);
 		
-		target = 8;
+		target = 50;
 		score = 0;
-//		timer = 41*60;
-		timer = 300;
+		timer = 41*60;
+//		timer = 300;
 		
 		t = new Thread(this);
 		t.start();
